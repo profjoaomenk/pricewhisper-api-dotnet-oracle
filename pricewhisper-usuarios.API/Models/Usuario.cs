@@ -11,13 +11,13 @@ namespace pricewhisper.Models
         public int UsuarioId { get; set; }
 
         [Required]
-        public string Nome { get; set; }
+        public required string Nome { get; set; }
 
         [Required]
-        public string NomeUsuario { get; set; }
+        public required string NomeUsuario { get; set; }
 
         [Required]
-        public string Senha { get; set; }
+        public required string Senha { get; set; }
 
         public int EmpresaId { get; set; }
 
