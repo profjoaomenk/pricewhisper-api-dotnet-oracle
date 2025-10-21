@@ -16,9 +16,6 @@ e também pela maior velocidade e eficiência no desenvolvimento do projeto.
 ## Design Patterns
 Utilizamos o design pattern de Singleton para o gerenciador de configurações do projeto, e também para o gerenciador de banco de dados.
 
-## Instruções
-Clone o projeto em sua máquina e na pasta raiz do projeto execute o comando 'dotnet run'.
-
 ## Integração com CNPJá
 
 Este projeto utiliza a API do CNPJá para validação de CNPJs durante o cadastro de empresas. A integração permite:
