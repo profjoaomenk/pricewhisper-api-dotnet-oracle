@@ -102,7 +102,7 @@ sku="F1"
 echo "Criando Grupo de Recursos..."
 az group create --name "$rg" --location "$location" 1>/dev/null
 echo "Criando Plano de Serviço..."
-az appservice plan create --name "$plan" --resource-group "$rg" --location "$location" --sku "$sku" 1>/dev/null
+az appservice plan create --name "$plan" --resource-group "$rg" --location "$location" --sku "$sku" --is-linux false 1>/dev/null
 echo "Criando Serviço de Aplicativo..."
 az webapp create --resource-group "$rg" --plan "$plan" --runtime "$runtime" --name "$app" 1>/dev/null
 
